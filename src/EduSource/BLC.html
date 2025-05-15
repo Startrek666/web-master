@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BL Online Training Course</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333333;
+    }
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+    }
+    .banner {
+      background: #465672;
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+    }
+    .banner h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .banner p {
+      font-size: 18px;
+      margin: 20px auto;
+      max-width: 800px;
+    }
+    .banner button {
+      background: #FFA726;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .overview {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .overview h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .card {
+      background: #F0F4F8;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: center;
+    }
+    .card h3 {
+      font-size: 24px;
+      margin: 0;
+    }
+    .card p {
+      font-size: 16px;
+      color: #666666;
+    }
+    .syllabus {
+      padding: 50px 20px;
+      background: #F9FAFB;
+    }
+    .syllabus h2 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .accordion {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 800px;
+      margin: 0 auto;
+      list-style-type: none;
+    }
+    .accordion .card {
+      flex: 1 1 auto;
+      margin: 5px;
+      background: white;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .lectures {
+      padding: 50px 20px;
+    }
+    .lectures h2 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .timeline {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .event {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .event div:first-child {
+      background: #465672;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      font-size: 18px;
+    }
+    .event div:last-child {
+      margin-left: 20px;
+    }
+    .event h3 {
+      font-size: 24px;
+      margin: 0;
+    }
+    .event p {
+      font-size: 16px;
+      color: #666666;
+    }
+    .cta {
+      background: #465672;
+      padding: 50px 20px;
+      text-align: center;
+      color: white;
+    }
+    .cta h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .cta button {
+      background: #FFA726;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 顶部 Banner -->
+  <div class="banner">
+    <h1>BL Online Training Course</h1>
+    <p>Blockchains is a very important tool for trusted computation and is the foundation of Cryptocurrencies. This course is suitable for senior researchers, Ph.D., and Master students. Online Course is 30 hours training course, which will admit 40 excellent trainees including young researchers, Ph.D., and master students.</p>
+    <button>Enroll Now</button>
+  </div>
+
+  <!-- 课程简介 -->
+  <div class="overview">
+    <h2>Course Overview</h2>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+      <div class="card">
+        <h3>Duration</h3>
+        <p>30 hours</p>
+      </div>
+      <div class="card">
+        <h3>Trainees</h3>
+        <p>40 trainees max</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 课程大纲 -->
+  <div class="syllabus">
+    <h2>Syllabus</h2>
+    <ul class="accordion">
+      <li class="card">
+        <h3>Crypto Background</h3>
+        <p>Learn the cryptographic foundations of blockchain technology.</p>
+      </li>
+      <li class="card">
+        <h3>Bitcoin Foundation</h3>
+        <p>Understand the fundamentals of Bitcoin and its underlying technology.</p>
+      </li>
+      <li class="card">
+        <h3>Bitcoin Mining</h3>
+        <p>Explore the process of Bitcoin mining and its significance.</p>
+      </li>
+      <li class="card">
+        <h3>Anonymity</h3>
+        <p>Study the anonymity features of blockchain systems.</p>
+      </li>
+      <li class="card">
+        <h3>Applications of Blockchains</h3>
+        <p>Discover real-world applications of blockchain technology.</p>
+      </li>
+      <li class="card">
+        <h3>Ethereum</h3>
+        <p>Learn about Ethereum and its role in decentralized applications.</p>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 讲座列表 -->
+  <div class="lectures">
+    <h2>Lectures</h2>
+    <ul class="timeline">
+      <li class="event">
+        <div>1</div>
+        <div>
+          <h3>Crypto Background-I</h3>
+          <p>Introduction to cryptographic concepts used in blockchain.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>2</div>
+        <div>
+          <h3>Crypto Background-II</h3>
+          <p>Advanced cryptographic techniques for blockchain.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>3</div>
+        <div>
+          <h3>Bitcoin-I</h3>
+          <p>Introduction to Bitcoin and its architecture.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>4</div>
+        <div>
+          <h3>Bitcoin-II</h3>
+          <p>Deep dive into Bitcoin transactions and consensus mechanisms.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>5</div>
+        <div>
+          <h3>Bitcoin-III</h3>
+          <p>Bitcoin mining and network security.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>6</div>
+        <div>
+          <h3>Bitcoin-IV</h3>
+          <p>Bitcoin scalability and future developments.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>7</div>
+        <div>
+          <h3>Anonymity-I</h3>
+          <p>Understanding anonymity in blockchain systems.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>8</div>
+        <div>
+          <h3>Anonymity-II</h3>
+          <p>Techniques for enhancing anonymity in blockchain.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>9</div>
+        <div>
+          <h3>Applications of Blockchains-I</h3>
+          <p>Blockchain in finance and payments.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>10</div>
+        <div>
+          <h3>Applications of Blockchains-II</h3>
+          <p>Blockchain in supply chain and logistics.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>11</div>
+        <div>
+          <h3>Applications of Blockchains-III</h3>
+          <p>Blockchain in healthcare and identity management.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>12</div>
+        <div>
+          <h3>Applications of Blockchains-IV</h3>
+          <p>Blockchain in governance and public services.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>13</div>
+        <div>
+          <h3>Ethereum</h3>
+          <p>Introduction to Ethereum and smart contracts.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div>14</div>
+        <div>
+          <h3>Trainee Director</h3>
+          <p>Guidance and mentorship for trainees.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 底部 Call-to-Action -->
+  <div class="cta">
+    <h2>Ready to Learn?</h2>
+    <button>Enroll Now</button>
+  </div>
+</body>
+</html>

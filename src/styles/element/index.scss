@@ -1,0 +1,12 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': ('base': #B8860B),
+    'success': ('base': #67c23a),
+    'warning': ('base': #DAA520),
+    'danger': ('base': #f56c6c),
+    'error': ('base': #f56c6c),
+    'info': ('base': #909399),
+  ),
+  $button-padding-horizontal: ('default': 24px),
+  $border-radius: ('base': 4px, 'small': 2px, 'round': 20px, 'circle': 100%)
+);
